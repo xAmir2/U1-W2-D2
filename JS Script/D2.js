@@ -17,7 +17,7 @@ if (num1 > num2) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 if (num1 !== 5) {
-  console.log("num1 is different than 5");
+  console.log("not equal");
 }
 
 /* ESERCIZIO 3
