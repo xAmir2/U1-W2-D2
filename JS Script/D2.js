@@ -38,10 +38,10 @@ if (num1 % 5 === 0) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 const num3 = 7;
 const num4 = 1;
-if (num3 === 8 && num4 === 8) {
+if (num3 === 8 || num4 === 8) {
   console.log("If either num3 or num4 are equal to 8");
-} else if (num3 + num4 === 8) {
-  console.log("If num3 and num4 are it's equal to 8");
+} else if (num3 + num4 === 8 || num3 - num4 === 8) {
+  console.log("If the sum or the substruction of num3 and num4 it's equal to 8");
 }
 
 /* ESERCIZIO 5
